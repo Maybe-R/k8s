@@ -7,5 +7,10 @@
 
 ### Установленный локальный kubectl.
 
+<img width="373" height="77" alt="image" src="https://github.com/user-attachments/assets/d8237ac5-e2d4-4b1e-8192-8d95edc2f2e1" />
 
-Редактор YAML-файлов с подключённым git-репозиторием.
+В качестве редактора YAML-файлов с подключённым git-репозиторием использую Visual Studio Code.
+
+## Задание 1. Создать Deployment и обеспечить доступ к репликам приложения из другого Pod
+
+
