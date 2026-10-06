@@ -29,6 +29,8 @@
 
 <img width="982" height="545" alt="image" src="https://github.com/user-attachments/assets/e3baf691-9eae-4add-b713-ab6740304e62" />
 
+Манифесты - https://github.com/Maybe-R/k8s/tree/main/DZ1/task1
+
 ## Задание 2. Создать Deployment и обеспечить старт основного контейнера при выполнении условий
 
 Создаем новый файл деплоя, прописываем init-контейнер на образе busybox, который выполняет требования ожидания запуска.
