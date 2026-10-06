@@ -45,4 +45,4 @@
 
 <img width="778" height="981" alt="image" src="https://github.com/user-attachments/assets/247ecc73-9201-4c53-8ade-12a66f810e96" />
 
-
+Манифесты - https://github.com/Maybe-R/k8s/tree/main/DZ1/task2
