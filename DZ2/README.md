@@ -43,9 +43,18 @@
 
 Создаем файл маршрутизации ingress.yaml, где обращение по api будет проходить через backend-service, а обычные http запросы через frontend-service
 
-![Uploading image.png…]()
+<img width="1019" height="632" alt="image" src="https://github.com/user-attachments/assets/59042cf2-7309-41e6-bd55-cea58089e8e6" />
 
+Выполняем проверку доступности
 
+<img width="831" height="769" alt="image" src="https://github.com/user-attachments/assets/2c8bf5ca-0061-4c53-b1cb-6b3699fe1ea7" />
 
+Видим, что система видит backend-service, но не видит деплой , пытаемся его пересоздать
 
+<img width="900" height="378" alt="image" src="https://github.com/user-attachments/assets/600b8957-f242-44f2-8b9f-2187d43e7010" />
+
+Осталось неправильное перенаправление запросов по api , но файл Ingress правильный.... 
+Запрос /api действительно попадает в backend, но сам образ wbitt/network-multitool отдаёт свою страницу только по пути /. Поэтому его встроенный nginx возвращает 404 для /api. Создадим дополнительный манифест, чтобы Traefik удалял префикс /api перед отправкой запроса в backend, а также поправим ingress.yaml. Выполним проверку.
+
+<img width="1065" height="644" alt="image" src="https://github.com/user-attachments/assets/0d297fe3-3160-44d6-8478-43479f0673b2" />
 
