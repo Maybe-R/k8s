@@ -2,6 +2,8 @@
 
 ## Задание 1: Настройка Service (ClusterIP и NodePort)
 
+Манифесты - https://github.com/Maybe-R/k8s/tree/main/DZ2/
+
 Создадим новый namespace и пишем новый деплой , применяем деплой
 
 <img width="770" height="993" alt="image" src="https://github.com/user-attachments/assets/28f18c48-99fb-4823-b883-8e70b9f584d0" />
@@ -28,6 +30,8 @@
 <img width="713" height="77" alt="image" src="https://github.com/user-attachments/assets/a3bacfc8-d084-4c91-bb0b-0baf301bf833" />
 
 ## Задание 2: Настройка Ingress
+
+Манифесты - https://github.com/Maybe-R/k8s/tree/main/DZ2/task2
 
 Создаем новый namespace, включаем контроллер Ingress-контроллер
 
