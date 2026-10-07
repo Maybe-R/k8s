@@ -27,4 +27,25 @@
 <img width="1003" height="946" alt="image" src="https://github.com/user-attachments/assets/5981d850-8574-4493-ba58-e656124b3d1d" />
 <img width="713" height="77" alt="image" src="https://github.com/user-attachments/assets/a3bacfc8-d084-4c91-bb0b-0baf301bf833" />
 
+## Задание 2: Настройка Ingress
+
+Создаем новый namespace, включаем контроллер Ingress-контроллер
+
+<img width="674" height="253" alt="image" src="https://github.com/user-attachments/assets/197911c8-2f59-4e6a-9d8d-930a08c52a60" />
+
+Проверяем включение контроллера
+
+<img width="1135" height="618" alt="image" src="https://github.com/user-attachments/assets/33479c17-290e-4479-8ba2-c9ab55f8924f" />
+
+Создаем деплои backend и frontend, прописываем для них service 
+
+<img width="910" height="588" alt="image" src="https://github.com/user-attachments/assets/d09a6b80-2cc8-4509-b1e1-bae83346cb73" />
+
+Создаем файл маршрутизации ingress.yaml, где обращение по api будет проходить через backend-service, а обычные http запросы через frontend-service
+
+![Uploading image.png…]()
+
+
+
+
 
